@@ -2,7 +2,7 @@
 
 ## Tar
 
-* Compressing files with extention 
+* Compressing files with particular extention 
 
     ```
     tar -czvf archive.tgz  `find . | egrep "0\.(json)$"`

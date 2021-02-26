@@ -78,6 +78,12 @@
    
    ![1612176835210](figures/1612176835210.png)
    
+* Listing estimated start times of jobs in the queue
+
+   ```
+   squeue --start
+   ```   
+   
 * Viewing the status of nodes
   
   ```

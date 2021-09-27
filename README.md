@@ -2,7 +2,7 @@
 
 ## Tar
 
-* Compressing files with extention 
+* Compressing files with particular extention 
 
     ```
     tar -czvf archive.tgz  `find . | egrep "0\.(json)$"`
@@ -77,6 +77,12 @@
    ```
    
    ![1612176835210](figures/1612176835210.png)
+   
+* Listing estimated start times of jobs in the queue
+
+   ```
+   squeue --start
+   ```   
    
 * Viewing the status of nodes
   
